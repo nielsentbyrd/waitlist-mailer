@@ -1,0 +1,15 @@
+{
+  "name": "waitlist-mailer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Send jewelry drop announcements to a waitlist with Amazon SES.",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sesv2": "^3.948.0",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2"
+  }
+}
